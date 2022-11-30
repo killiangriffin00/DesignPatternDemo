@@ -13,7 +13,7 @@ namespace DesignPatternDemo
 
         public ShrekButtonMediator()
         {
-            this.shrek2Script = FileAccessor.GetInstance();
+            this.shrek2Script = new FileAccessor(new FileStream(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "/testFile.txt", FileMode.Open));
             buttons = new Dictionary<string, ShrekButton>();
         }
 
