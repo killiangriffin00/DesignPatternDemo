@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo.csproj": {}
+    "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo.csproj": {
+    "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo.csproj",
+        "projectUniqueName": "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo.csproj",
         "projectName": "DesignPatternDemo",
-        "projectPath": "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo.csproj",
+        "projectPath": "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo.csproj",
         "packagesPath": "C:\\Users\\fabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\DesignPatternDemo\\obj\\",
+        "outputPath": "C:\\Users\\fabri\\source\\repos\\DesignPatternDemo\\DesignPatternDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

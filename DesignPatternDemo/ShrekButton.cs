@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace DesignPatternDemo
 {
     using System.ComponentModel;
-    public class ReadButton
+    public class ShrekButton
     {
         private readonly string buttonName;
         private string buttonText;
         private Mediator mediator;
         
-        public ReadButton(string buttonName, Mediator mediator)
+        public ShrekButton(string buttonName, Mediator mediator)
         {
             this.buttonName = buttonName;
             this.mediator = mediator;

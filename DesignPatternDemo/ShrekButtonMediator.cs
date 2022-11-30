@@ -6,22 +6,22 @@ using System.Threading.Tasks;
 
 namespace DesignPatternDemo
 {
-    public class ShrekFileMediator : Mediator
+    public class ShrekButtonMediator : Mediator
     {
         private FileAccessor shrek2Script;
-        private Dictionary<string, ReadButton> buttons;
+        private Dictionary<string, ShrekButton> buttons;
 
-        public ShrekFileMediator()
+        public ShrekButtonMediator()
         {
             this.shrek2Script = FileAccessor.GetInstance();
-            buttons = new Dictionary<string, ReadButton>();
+            buttons = new Dictionary<string, ShrekButton>();
         }
 
         public void notify(object sender, string e)
         {
-            if(sender is ReadButton)
+            if(sender is ShrekButton)
             {
-                ReadButton button = (ReadButton)sender;
+                ShrekButton button = (ShrekButton)sender;
                 if (!buttons.ContainsKey(button.ButtonName))
                 {
                     buttons[button.ButtonName] = button;
